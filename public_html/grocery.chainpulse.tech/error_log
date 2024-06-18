@@ -1,0 +1,9 @@
+[25-Aug-2023 12:24:55 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home2/chainpul/public_html/immotep.chainpulse.tech/app/Http/Controllers/API/CommonController.php:82
+Stack trace:
+#0 /home2/chainpul/public_html/immotep.chainpulse.tech/app/Http/Controllers/API/CommonController.php(82): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home2/chainpul...', 82, Array)
+#1 /home2/chainpul/public_html/immotep.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\API\CommonController->signup(Object(Illuminate\Http\Request))
+#2 /home2/chainpul/public_html/immotep.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('signup', Array)
+#3 /home2/chainpul/public_html/immotep.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(262): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\ in /home2/chainpul/public_html/immotep.chainpulse.tech/app/Http/Controllers/API/CommonController.php on line 82
+[25-Aug-2023 12:31:53 UTC] PHP Fatal error:  Trait 'Laravel\Laravel\HasApiTokens' not found in /home2/chainpul/public_html/immotep.chainpulse.tech/app/Models/User.php on line 11
+[25-Aug-2023 12:33:41 UTC] PHP Fatal error:  Cannot use Laravel\Passport\HasApiTokens as HasApiTokens because the name is already in use in /home2/chainpul/public_html/immotep.chainpulse.tech/app/Models/User.php on line 10
+[01-Sep-2023 08:01:13 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home2/chainpul/public_html/immotep.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php on line 43

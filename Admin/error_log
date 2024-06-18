@@ -1,0 +1,91 @@
+[27-Apr-2023 05:23:38 UTC] PHP Fatal error:  Uncaught Error: Object of class Illuminate\Database\Eloquent\Builder could not be converted to string in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/BookingController.php:24
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\BookingController->bhistory(Object(Illuminate\Http\Request))
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('bhistory', Array)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(239): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\BookingController), 'bhistory')
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Rou in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/BookingController.php on line 24
+[27-Apr-2023 05:23:38 UTC] PHP Fatal error:  Uncaught Error: Object of class Illuminate\Database\Eloquent\Builder could not be converted to string in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/BookingController.php:24
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\BookingController->bhistory(Object(Illuminate\Http\Request))
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('bhistory', Array)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(239): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\BookingController), 'bhistory')
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Rou in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/BookingController.php on line 24
+[27-Apr-2023 05:24:20 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/BookingController.php on line 24
+[27-Apr-2023 05:26:13 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/BookingController.php on line 24
+[03-May-2023 07:02:34 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home2/chainpul/public_html/puro-circular.chainpulse.tech/storage/framework/views/c41768634093fbb1ef0c4d99c1855f576c855e04.php on line 22
+[09-May-2023 08:26:34 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 196608 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/storage/framework/views/323af7a6e831ee86741d0e657a12218bff743cf8.php on line 101
+[09-May-2023 08:26:45 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 196608 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/storage/framework/views/323af7a6e831ee86741d0e657a12218bff743cf8.php on line 101
+[09-May-2023 08:28:07 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 192512 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 46
+[09-May-2023 08:28:43 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 192512 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 46
+[09-May-2023 08:29:23 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 192512 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 46
+[09-May-2023 08:29:44 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 196608 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/storage/framework/views/323af7a6e831ee86741d0e657a12218bff743cf8.php on line 101
+[09-May-2023 08:34:00 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 192512 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 46
+[09-May-2023 08:36:30 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 192512 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 46
+[09-May-2023 08:37:06 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 196608 bytes) in /home2/chainpul/public_html/puro-circular.chainpulse.tech/storage/framework/views/323af7a6e831ee86741d0e657a12218bff743cf8.php on line 101
+[09-May-2023 08:37:37 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/facade/ignition/src/Views/Concerns/CollectsViewExceptions.php on line 55
+[23-May-2023 04:30:00 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1362
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1362): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home2/chainpul...', 1362, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Bookings.php(33): Illuminate\Support\Collection->offsetGet(0)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(473): App\Bookings->getUserNameAttribute(NULL)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(1444): Illuminate\Database\Eloquent\Model->mutateAttribute('user_name', NULL)
+#4 /home2/chainpul/public_html/puro-circ in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1362
+[23-May-2023 04:30:37 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1362
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1362): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home2/chainpul...', 1362, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Bookings.php(33): Illuminate\Support\Collection->offsetGet(0)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(473): App\Bookings->getUserNameAttribute(NULL)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(1444): Illuminate\Database\Eloquent\Model->mutateAttribute('user_name', NULL)
+#4 /home2/chainpul/public_html/puro-circ in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1362
+[23-May-2023 04:31:14 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1362
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1362): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home2/chainpul...', 1362, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Bookings.php(33): Illuminate\Support\Collection->offsetGet(0)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(473): App\Bookings->getUserNameAttribute(NULL)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(1444): Illuminate\Database\Eloquent\Model->mutateAttribute('user_name', NULL)
+#4 /home2/chainpul/public_html/puro-circ in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1362
+[23-May-2023 04:31:19 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1362
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1362): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home2/chainpul...', 1362, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Bookings.php(33): Illuminate\Support\Collection->offsetGet(0)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(473): App\Bookings->getUserNameAttribute(NULL)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(1444): Illuminate\Database\Eloquent\Model->mutateAttribute('user_name', NULL)
+#4 /home2/chainpul/public_html/puro-circ in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1362
+[23-May-2023 05:22:17 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1362
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1362): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home2/chainpul...', 1362, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Bookings.php(33): Illuminate\Support\Collection->offsetGet(0)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(473): App\Bookings->getUserNameAttribute(NULL)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(1444): Illuminate\Database\Eloquent\Model->mutateAttribute('user_name', NULL)
+#4 /home2/chainpul/public_html/puro-circ in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1362
+[23-May-2023 05:23:33 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1362
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1362): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined offse...', '/home2/chainpul...', 1362, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Bookings.php(33): Illuminate\Support\Collection->offsetGet(0)
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(473): App\Bookings->getUserNameAttribute(NULL)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php(1444): Illuminate\Database\Eloquent\Model->mutateAttribute('user_name', NULL)
+#4 /home2/chainpul/public_html/puro-circ in /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1362
+[23-May-2023 05:25:26 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php:27
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php(27): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home2/chainpul...', 27, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\AdminController->dashboard()
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('dashboard', Array)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(239): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Cont in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php on line 27
+[23-May-2023 05:26:38 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php:28
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home2/chainpul...', 28, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\AdminController->dashboard()
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('dashboard', Array)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(239): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Cont in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php on line 28
+[23-May-2023 05:33:16 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php:36
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php(36): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home2/chainpul...', 36, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\AdminController->dashboard()
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('dashboard', Array)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(239): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Cont in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php on line 36
+[23-May-2023 05:40:13 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php:29
+Stack trace:
+#0 /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php(29): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home2/chainpul...', 29, Array)
+#1 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\AdminController->dashboard()
+#2 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('dashboard', Array)
+#3 /home2/chainpul/public_html/puro-circular.chainpulse.tech/vendor/laravel/framework/src/Illuminate/Routing/Route.php(239): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Cont in /home2/chainpul/public_html/puro-circular.chainpulse.tech/app/Http/Controllers/Admin/AdminController.php on line 29

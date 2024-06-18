@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Belgiano Serif';
+    src: url('./fonts/BelgianoSerif-Regular.woff2') format('woff2'),
+        url('./fonts/BelgianoSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+body {
+    background-color: #F6F6F6;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container {
+    max-width: 1295px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+button {
+    cursor: pointer;
+}
+/*----------LOGIN-CSS-START-----------*/
+.login-form {
+    background-color: #0A0E21;
+    background-image: url(../User-images/login-bg-img.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 45px 0;
+}
+.login-main-container {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(15px);
+    padding: 40px 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.login-main-container p {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 50px 0;
+}
+.login-main-container .card-body {
+    width: 100%;
+}
+.login-main-container .col-field-main {
+    margin-bottom: 20px;
+}
+.login-main-container input {
+    width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 56px;
+    padding: 16px 30px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgb(255 0 0) !important;
+    background-color: transparent !important;
+    color: #fff;
+}
+.login-main-container h4 {
+    font-family: 'Belgiano Serif' !important;
+    text-align: center;
+    color: #FFE379;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.login-main-container input::-webkit-input-placeholder {
+    opacity: 1;
+   color: #fff !important;
+}
+
+.login-main-container input::-moz-placeholder {
+    opacity: 1;
+    color: #fff !important;
+}
+
+.login-main-container input:-ms-input-placeholder {
+    opacity: 1;
+     color: #fff !important;
+}
+
+.login-main-container input:-moz-placeholder {
+    opacity: 1;
+    color: #fff !important;
+}
+.login-btn .button button.btn{
+    border-radius: 10px;
+    background: #0A0E21;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+    padding: 10px;
+    border: 0;
+}
+.login-main-container a.btn.btn-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.login-main-heading {
+    color: #FFE379;
+    font-family: Belgiano Serif !important;
+    font-size: 110px;
+    font-weight: 400;
+}
+.login-main-content h3 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+}
+.login-main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+    align-items: center;
+}
+.login-main-container .login-btn.register_link {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.remember-pswd-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+.or-txt-small {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+.or-txt-small:before {
+    background: rgba(255, 255, 255, 0.30);
+    width: 40%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+}
+.or-txt-small span {
+    background-color: #3d4151;
+    padding: 0 15px;
+    z-index: 1;
+    position: relative;
+}
+.login-main-container .btn-block {
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 56px;
+    padding: 10px;
+    position: relative;
+}
+.login-main-container .btn-block svg {
+    margin-right: 34px;
+}
+.login-main-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+/*----------LOGIN-CSS-END----------*/
+.navbar-expand .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0px !important;
+}
+
+/*----------MEDIA-START----------*/
+@media(max-width: 989px){
+    .login-main-content {
+    grid-gap: 30px;
+}
+.login-main-heading {
+    font-size: 70px;
+}
+.login-main-content h3 {
+    font-size: 28px;
+}
+.login-main-container {
+    padding: 20px 40px;
+}
+.login-main-container p {
+    font-size: 16px;
+    padding: 0 0 40px 0;
+}
+}
+@media(max-width: 749px){
+    .login-main-content {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+   .login-main-heading {
+    font-size: 40px;
+} 
+.login-main-content h3 {
+    font-size: 20px;
+}
+.login-form {
+    padding: 10px 0 30px 0;
+}
+.login-main-container {
+    padding: 20px 20px;
+}
+.login-main-container p {
+    font-size: 16px;
+    padding: 0 0 20px 0;
+}
+.login-main-container h4 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.login-btn .button button.btn {
+    min-height: 50px;
+}
+.login-main-container .btn-block svg {
+    margin-right: 14px;
+}
+.login-main-container input {
+    font-size: 14px;
+    height: 44px;
+    padding: 10px 20px;
+
+}
+.or-txt-small span {
+    padding: 0 8px;
+}
+.or-txt-small {
+    margin: 14px 0;
+}
+.login-main-img svg {
+    max-width: 100px;
+    height: auto;
+}
+.login-main-img {
+    margin-bottom: 30px;
+}
+}
+/*----------MEDIA-END-----------*/
